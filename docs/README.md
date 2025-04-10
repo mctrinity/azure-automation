@@ -176,11 +176,11 @@ This project is provided as-is under the MIT License.
 
 Scripts are located in the `/scripts` folder, organized by category. Each script has a corresponding markdown file with documentation. You can also view them directly from the Docsify-powered site or link to them here:
 
-- [`App Service`](docs/scripts/create-appservice.md)
-- [`Function App`](docs/scripts/create-functionapp.md)
-- [`Front Door`](docs/scripts/configure-frontdoor.md)
-- [`DNS Record`](docs/scripts/create-dns-record.md)
-- [`SSL Binding`](docs/scripts/bind-ssl-cert.md)
+- [`App Service`](scripts/create-appservice.md)
+- [`Function App`](scripts/create-functionapp.md)
+- [`Front Door`](scripts/configure-frontdoor.md)
+- [`DNS Record`](scripts/create-dns-record.md)
+- [`SSL Binding`](scripts/bind-ssl-cert.md)
 
 Refer to the script folders for full documentation and usage notes.
 
