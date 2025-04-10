@@ -105,6 +105,34 @@ pwsh ./scripts/ssl/bind-ssl-cert.ps1 `
 
 ---
 
+## 📖 View Documentation Locally
+
+To preview the Docsify documentation site on your local machine:
+
+### Step 1: Install Docsify CLI (optional)
+
+If not already installed globally:
+
+```bash
+npm install docsify-cli -g
+```
+
+### Step 2: Serve the site
+
+Run this in the project root:
+
+```bash
+npx docsify-cli serve docs
+```
+
+### Step 3: Open in browser
+
+Visit: [http://localhost:3000](http://localhost:3000)
+
+This will load the documentation using `index.html` and `_sidebar.md` from the `/docs` folder.
+
+---
+
 ## 🌐 GitHub Pages
 
 To turn this into a browsable GitHub Pages documentation site:
@@ -146,13 +174,13 @@ This project is provided as-is under the MIT License.
 
 ## 📝 Scripts
 
-Scripts are located in the `/scripts` folder, organized by category. Each script has a corresponding markdown file with documentation:
+Scripts are located in the `/scripts` folder, organized by category. Each script has a corresponding markdown file with documentation. You can also view them directly from the Docsify-powered site or link to them here:
 
-- [`appservice/create-appservice.ps1`](./scripts/appservice/create-appservice.md)
-- [`functionapp/create-functionapp.ps1`](./scripts/functionapp/create-functionapp.md)
-- [`frontdoor/configure-frontdoor.ps1`](./scripts/frontdoor/configure-frontdoor.md)
-- [`dns/create-dns-record.ps1`](./scripts/dns/create-dns-record.md)
-- [`ssl/bind-ssl-cert.ps1`](./scripts/ssl/bind-ssl-cert.md)
+- [`App Service`](docs/scripts/create-appservice.md)
+- [`Function App`](docs/scripts/create-functionapp.md)
+- [`Front Door`](docs/scripts/configure-frontdoor.md)
+- [`DNS Record`](docs/scripts/create-dns-record.md)
+- [`SSL Binding`](docs/scripts/bind-ssl-cert.md)
 
 Refer to the script folders for full documentation and usage notes.
 
