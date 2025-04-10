@@ -144,25 +144,16 @@ To turn this into a browsable GitHub Pages documentation site:
 
 **Example `_sidebar.md` for Docsify:**
 
-````markdown
+```markdown
 - Getting Started
   - [README](README.md)
 - Scripts
-  - [App Service](scripts/appservice/create-appservice.md)
-  - [Function App](scripts/functionapp/create-functionapp.md)
-  - [Front Door](scripts/frontdoor/configure-frontdoor.md)
-  - [DNS Record](scripts/dns/create-dns-record.md)
-  - [SSL Binding](scripts/ssl/bind-ssl-cert.md)
-
-```markdown
-- Scripts
-  - [App Service](scripts/appservice/create-appservice.md)
-  - [Function App](scripts/functionapp/create-functionapp.md)
-  - [Front Door](scripts/frontdoor/configure-frontdoor.md)
-  - [DNS Record](scripts/dns/create-dns-record.md)
-  - [SSL Binding](scripts/ssl/bind-ssl-cert.md)
+  - [App Service](scripts/create-appservice.md)
+  - [Function App](scripts/create-functionapp.md)
+  - [Front Door](scripts/configure-frontdoor.md)
+  - [DNS Record](scripts/create-dns-record.md)
+  - [SSL Binding](scripts/bind-ssl-cert.md)
 ```
-````
 
 ---
 
@@ -174,7 +165,7 @@ This project is provided as-is under the MIT License.
 
 ## 📝 Scripts
 
-Scripts are located in the `/scripts` folder, organized by category. Each script has a corresponding markdown file with documentation. You can also view them directly from the Docsify-powered site or link to them here:
+Scripts are located in the `/docs/scripts` folder and are organized flat (no subfolders). Each script has a corresponding markdown file with documentation. You can also view them directly from the Docsify-powered site or link to them here:
 
 - [`App Service`](scripts/create-appservice.md)
 - [`Function App`](scripts/create-functionapp.md)
