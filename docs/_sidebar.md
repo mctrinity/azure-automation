@@ -1,12 +1,8 @@
-**Example `_sidebar.md` for Docsify:**
-
-```markdown
 - Getting Started
-  - [README](README.md)
+  - [README](../README.md)
 - Scripts
-  - [App Service](scripts/create-appservice.md)
-  - [Function App](scripts/create-functionapp.md)
-  - [Front Door](scripts/configure-frontdoor.md)
-  - [DNS Record](scripts/create-dns-record.md)
-  - [SSL Binding](scripts/bind-ssl-cert.md)
-```
+  - [App Service](../scripts/appservice/create-appservice.md)
+  - [Function App](../scripts/functionapp/create-functionapp.md)
+  - [Front Door](../scripts/frontdoor/configure-frontdoor.md)
+  - [DNS Record](../scripts/dns/create-dns-record.md)
+  - [SSL Binding](../scripts/ssl/bind-ssl-cert.md)

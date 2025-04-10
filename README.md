@@ -144,25 +144,16 @@ To turn this into a browsable GitHub Pages documentation site:
 
 **Example `_sidebar.md` for Docsify:**
 
-````markdown
-- Getting Started
-  - [README](README.md)
-- Scripts
-  - [App Service](scripts/appservice/create-appservice.md)
-  - [Function App](scripts/functionapp/create-functionapp.md)
-  - [Front Door](scripts/frontdoor/configure-frontdoor.md)
-  - [DNS Record](scripts/dns/create-dns-record.md)
-  - [SSL Binding](scripts/ssl/bind-ssl-cert.md)
-
 ```markdown
+- Getting Started
+  - [README](../README.md)
 - Scripts
-  - [App Service](scripts/appservice/create-appservice.md)
-  - [Function App](scripts/functionapp/create-functionapp.md)
-  - [Front Door](scripts/frontdoor/configure-frontdoor.md)
-  - [DNS Record](scripts/dns/create-dns-record.md)
-  - [SSL Binding](scripts/ssl/bind-ssl-cert.md)
+  - [App Service](../scripts/appservice/create-appservice.md)
+  - [Function App](../scripts/functionapp/create-functionapp.md)
+  - [Front Door](../scripts/frontdoor/configure-frontdoor.md)
+  - [DNS Record](../scripts/dns/create-dns-record.md)
+  - [SSL Binding](../scripts/ssl/bind-ssl-cert.md)
 ```
-````
 
 ---
 
@@ -174,13 +165,15 @@ This project is provided as-is under the MIT License.
 
 ## 📝 Scripts
 
-Scripts are located in the `/scripts` folder, organized by category. Each script has a corresponding markdown file with documentation:
+> 📘 Prefer reading this via the [Docsify site](https://mctrinity.github.io/azure-automation/) for clickable navigation.
 
-- [`appservice/create-appservice.ps1`](./scripts/appservice/create-appservice.md)
-- [`functionapp/create-functionapp.ps1`](./scripts/functionapp/create-functionapp.md)
-- [`frontdoor/configure-frontdoor.ps1`](./scripts/frontdoor/configure-frontdoor.md)
-- [`dns/create-dns-record.ps1`](./scripts/dns/create-dns-record.md)
-- [`ssl/bind-ssl-cert.ps1`](./scripts/ssl/bind-ssl-cert.md)
+Scripts are located in the `/scripts` folder, and each has a corresponding markdown documentation file stored alongside it. You can also view them directly from GitHub using the links below:
+
+- [`App Service`](https://github.com/mctrinity/azure-automation/blob/main/scripts/appservice/create-appservice.md)
+- [`Function App`](https://github.com/mctrinity/azure-automation/blob/main/scripts/functionapp/create-functionapp.md)
+- [`Front Door`](https://github.com/mctrinity/azure-automation/blob/main/scripts/frontdoor/configure-frontdoor.md)
+- [`DNS Record`](https://github.com/mctrinity/azure-automation/blob/main/scripts/dns/create-dns-record.md)
+- [`SSL Binding`](https://github.com/mctrinity/azure-automation/blob/main/scripts/ssl/bind-ssl-cert.md)
 
 Refer to the script folders for full documentation and usage notes.
 
