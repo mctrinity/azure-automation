@@ -1,5 +1,18 @@
 # Azure Automation Scripts
 
+## 📚 Table of Contents
+
+- [Project Structure](#-project-structure)
+- [Prerequisites](#-prerequisites)
+- [Usage](#-usage)
+- [Customization](#-customization)
+- [Future Improvements](#-future-improvements)
+- [View Documentation Locally](#-view-documentation-locally)
+- [GitHub Pages](#-github-pages)
+- [License](#-license)
+- [Scripts](#-scripts)
+- [Sample Config Files](#-sample-config-files)
+
 This repository contains modular PowerShell scripts and JSON configuration files for automating the creation of Azure resources such as:
 
 - Azure App Services
