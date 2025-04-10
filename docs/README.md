@@ -105,34 +105,6 @@ pwsh ./scripts/ssl/bind-ssl-cert.ps1 `
 
 ---
 
-## 📖 View Documentation Locally
-
-To preview the Docsify documentation site on your local machine:
-
-### Step 1: Install Docsify CLI (optional)
-
-If not already installed globally:
-
-```bash
-npm install docsify-cli -g
-```
-
-### Step 2: Serve the site
-
-Run this in the project root:
-
-```bash
-npx docsify-cli serve docs
-```
-
-### Step 3: Open in browser
-
-Visit: [http://localhost:3000](http://localhost:3000)
-
-This will load the documentation using `index.html` and `_sidebar.md` from the `/docs` folder.
-
----
-
 ## 🌐 GitHub Pages
 
 To turn this into a browsable GitHub Pages documentation site:
