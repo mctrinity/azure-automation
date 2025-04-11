@@ -25,7 +25,7 @@ All scripts are designed to be reusable and easily triggered via command line or
 
 ---
 
-## Project Structure <a name="project-structure"></a>
+## Project Structure
 
 ```
 azure-automation/
@@ -54,7 +54,7 @@ azure-automation/
 
 ---
 
-## Prerequisites <a name="prerequisites"></a>
+## Prerequisites
 
 - PowerShell 7+
 - Azure CLI installed and logged in (`az login`)
