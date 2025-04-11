@@ -1,0 +1,8 @@
+- Getting Started
+  - [README](README.md)
+- Scripts
+  - [App Service](../scripts/appservice/create-appservice.md)
+  - [Function App](../scripts/functionapp/create-functionapp.md)
+  - [Front Door](../scripts/frontdoor/configure-frontdoor.md)
+  - [DNS Record](../scripts/dns/create-dns-record.md)
+  - [SSL Binding](../scripts/ssl/bind-ssl-cert.md)
