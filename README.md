@@ -25,7 +25,7 @@ All scripts are designed to be reusable and easily triggered via command line or
 
 ---
 
-## Project Structure
+## Project Structure <a name="project-structure"></a>
 
 ```
 azure-automation/
@@ -54,7 +54,7 @@ azure-automation/
 
 ---
 
-## Prerequisites
+## Prerequisites <a name="prerequisites"></a>
 
 - PowerShell 7+
 - Azure CLI installed and logged in (`az login`)
@@ -62,7 +62,7 @@ azure-automation/
 
 ---
 
-## Usage
+## Usage <a name="usage"></a>
 
 ### Run App Service Script
 
@@ -103,14 +103,14 @@ pwsh ./scripts/ssl/bind-ssl-cert.ps1 `
 
 > You can duplicate and modify config files in the `config/` folder to create resources for other clients or environments.
 
-## Customization
+## Customization <a name="customization"></a>
 
 - Scripts are parameterized via JSON files or CLI flags for flexibility
 - Add additional properties to JSON configs as needed (e.g., environment tags, subdomain name, etc.)
 
 ---
 
-## Future Improvements
+## Future Improvements <a name="future-improvements"></a>
 
 - GitHub Actions integration
 - Multi-region support
@@ -118,7 +118,7 @@ pwsh ./scripts/ssl/bind-ssl-cert.ps1 `
 
 ---
 
-## View Documentation Locally
+## View Documentation Locally <a name="view-documentation-locally"></a>
 
 To preview the Docsify documentation site on your local machine:
 
@@ -146,7 +146,7 @@ This will load the documentation using `index.html` and `_sidebar.md` from the `
 
 ---
 
-## GitHub Pages
+## GitHub Pages <a name="github-pages"></a>
 
 To turn this into a browsable GitHub Pages documentation site:
 
@@ -170,13 +170,13 @@ To turn this into a browsable GitHub Pages documentation site:
 
 ---
 
-## License
+## License <a name="license"></a>
 
 This project is provided as-is under the MIT License.
 
 ---
 
-## Scripts
+## Scripts <a name="scripts"></a>
 
 > 📘 Prefer reading this via the [Docsify site](https://mctrinity.github.io/azure-automation/) for clickable navigation.
 
@@ -190,7 +190,7 @@ Scripts are located in the `/scripts` folder, and each has a corresponding markd
 
 Refer to the script folders for full documentation and usage notes.
 
-## Sample Config Files
+## Sample Config Files <a name="sample-config-files"></a>
 
 ### config/client1-app.json
 
