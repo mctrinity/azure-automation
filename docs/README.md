@@ -62,7 +62,7 @@ azure-automation/
 
 ---
 
-## Usage <a name="usage"></a>
+## Usage
 
 ### Run App Service Script
 
@@ -103,14 +103,14 @@ pwsh ./scripts/ssl/bind-ssl-cert.ps1 `
 
 > You can duplicate and modify config files in the `config/` folder to create resources for other clients or environments.
 
-## Customization <a name="customization"></a>
+## Customization
 
 - Scripts are parameterized via JSON files or CLI flags for flexibility
 - Add additional properties to JSON configs as needed (e.g., environment tags, subdomain name, etc.)
 
 ---
 
-## Future Improvements <a name="future-improvements"></a>
+## Future Improvements
 
 - GitHub Actions integration
 - Multi-region support
@@ -118,7 +118,7 @@ pwsh ./scripts/ssl/bind-ssl-cert.ps1 `
 
 ---
 
-## View Documentation Locally <a name="view-documentation-locally"></a>
+## View Documentation Locally
 
 To preview the Docsify documentation site on your local machine:
 
@@ -146,7 +146,7 @@ This will load the documentation using `index.html` and `_sidebar.md` from the `
 
 ---
 
-## GitHub Pages <a name="github-pages"></a>
+## GitHub Pages
 
 To turn this into a browsable GitHub Pages documentation site:
 
@@ -170,13 +170,13 @@ To turn this into a browsable GitHub Pages documentation site:
 
 ---
 
-## License <a name="license"></a>
+## License
 
 This project is provided as-is under the MIT License.
 
 ---
 
-## Scripts <a name="scripts"></a>
+## Scripts
 
 > 📘 Prefer reading this via the [Docsify site](https://mctrinity.github.io/azure-automation/) for clickable navigation.
 
@@ -190,7 +190,7 @@ Scripts are located in the `/scripts` folder, and each has a corresponding markd
 
 Refer to the script folders for full documentation and usage notes.
 
-## Sample Config Files <a name="sample-config-files"></a>
+## Sample Config Files
 
 ### config/client1-app.json
 
